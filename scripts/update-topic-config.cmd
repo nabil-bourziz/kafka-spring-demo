@@ -1,0 +1,2 @@
+%KAFKA_HOME%\bin\windows\zookeeper-shell.bat localhost deleteall /controller
+%KAFKA_HOME%\bin\windows\kafka-configs.bat --bootstrap-server localhost:9092 --entity-type topics --entity-name Topic1 --alter --delete-config max.message.bytes
